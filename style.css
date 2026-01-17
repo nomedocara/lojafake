@@ -1,0 +1,221 @@
+.search{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    border-radius: 28px;
+    background-color: #ffffff;
+    border: 1px solid #1c1c1c;
+    margin-left: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search input{
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    color: #333333;
+    margin-left: 30px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    flex-grow: 1;
+}
+
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 100px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 100%);
+    overflow: hidden;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    margin-right: 100px;
+    align-self: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    height: 30px;
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 98%);
+}
+.navbar li{
+    flex: left;
+}
+
+img[src*="LogoLoja.png"] {
+    width: 90px;
+    height: auto;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;   
+  gap: 8px;              
+}
+
+.brand-text {
+  font-family: Arial, sans-serif; 
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.navbar div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar span1{
+  font-family: system-ui, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+button{
+    padding: 5px;
+    border: 1px solid #000000;
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    height: 30px;
+    cursor: pointer;
+    background-color: #fff6a7;
+    transition: background-color 1.3s ease;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+button:active {
+    transform: scale(0.98);
+    animation: none;
+}
+
+@keyframes pulse {
+    from {
+        box-shadow: #ec592b 0 0 0;
+    }
+    to {
+        box-shadow: #ec592b 0 0 20px;
+    }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  15% { transform: translateX(-8px); }
+  20% { transform: translateX(5px); }
+  35% { transform: translateX(-8px); }
+  45% { transform: translateX(5px); }
+  50% { transform: translateX(-8px); }
+  65% { transform: translateX(5px); }
+  75% { transform: translateX(-8px); }
+  80% { transform: translateX(5px); }
+  95% { transform: translateX(-8px); }
+}
+ .clicked {
+   animation: shake 0.46s;
+ }
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+    border-top: 1px solid #ccc;
+    font-family: 'Lexend', sans-serif;
+}
+
+.products-container{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 200px;
+    padding: 300px;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+}
+
+.product-card {
+    font-family: 'Lexend', sans-serif;
+    border: #000000;
+    border-radius: 32px;
+    box-shadow: 0 2px 4px rgb(0, 102, 255);
+    text-align: center;
+    border-bottom: #000000;
+}
+
+.product-card {
+    font-family: 'Lexend', sans-serif;
+    border: #000000;
+    border-radius: 32px;
+    box-shadow: 0 2px 4px rgb(0, 102, 255);
+    text-align: center;
+    border-bottom: #000000;
+}
+
+.product-card {
+    font-family: 'Lexend', sans-serif;
+    border: #000000;
+    border-radius: 32px;
+    box-shadow: 0 2px 4px rgb(0, 102, 255);
+    text-align: center;
+    border-bottom: #000000;
+}
+
+.product-card {
+    font-family: 'Lexend', sans-serif;
+    border: #000000;
+    border-radius: 32px;
+    box-shadow: 0 2px 4px rgb(0, 102, 255);
+    text-align: center;
+    border-bottom: #000000;
+}
+
+.product-card {
+    font-family: 'Lexend', sans-serif;
+    border: #000000;
+    border-radius: 32px;
+    box-shadow: 0 2px 4px rgb(0, 102, 255);
+    text-align: center;
+    border-bottom: #000000;
+}
+
+.product-card {
+    font-family: 'Lexend', sans-serif;
+    border: #000000;
+    border-radius: 32px;
+    box-shadow: 0 2px 4px rgb(0, 102, 255);
+    text-align: center;
+    border-bottom: #000000;
+}
